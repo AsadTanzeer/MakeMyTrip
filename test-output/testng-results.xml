@@ -1,45 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="8" passed="7">
+<testng-results skipped="0" failed="1" ignored="0" total="9" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="67252" started-at="2021-10-02T00:14:48 IST" finished-at="2021-10-02T00:15:55 IST">
+  <suite name="Default suite" duration-ms="61371" started-at="2021-10-03T15:30:24 IST" finished-at="2021-10-03T15:31:25 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="67252" started-at="2021-10-02T00:14:48 IST" finished-at="2021-10-02T00:15:55 IST">
-      <class name="flightbooking1.fb1">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:flightbooking1.fb1@3e57cd70]" name="beforeTest" is-config="true" duration-ms="2056" started-at="2021-10-02T00:14:48 IST" finished-at="2021-10-02T00:14:50 IST">
+    <test name="Default test" duration-ms="61371" started-at="2021-10-03T15:30:24 IST" finished-at="2021-10-03T15:31:25 IST">
+      <class name="flightbooking1.MulticityFlight">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:flightbooking1.MulticityFlight@3e57cd70]" name="beforeTest" is-config="true" duration-ms="1985" started-at="2021-10-03T15:30:24 IST" finished-at="2021-10-03T15:30:26 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="fbpage1()[pri:1, instance:flightbooking1.fb1@3e57cd70]" name="fbpage1" duration-ms="8850" started-at="2021-10-02T00:14:50 IST" description="Checking website and Flight button" finished-at="2021-10-02T00:14:58 IST">
+        <test-method status="PASS" signature="fbpage1()[pri:1, instance:flightbooking1.MulticityFlight@3e57cd70]" name="fbpage1" duration-ms="9394" started-at="2021-10-03T15:30:26 IST" description="Checking website and Flight button" finished-at="2021-10-03T15:30:35 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fbpage1 -->
-        <test-method status="PASS" signature="fbpage2()[pri:2, instance:flightbooking1.fb1@3e57cd70]" name="fbpage2" duration-ms="2641" started-at="2021-10-02T00:14:58 IST" description="Checking From Location" finished-at="2021-10-02T00:15:01 IST">
+        <test-method status="PASS" signature="fbpage2()[pri:2, instance:flightbooking1.MulticityFlight@3e57cd70]" name="fbpage2" duration-ms="2646" started-at="2021-10-03T15:30:35 IST" description="Checking From Location 1" finished-at="2021-10-03T15:30:38 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fbpage2 -->
-        <test-method status="PASS" signature="fbpage3()[pri:3, instance:flightbooking1.fb1@3e57cd70]" name="fbpage3" duration-ms="5360" started-at="2021-10-02T00:15:01 IST" description="Checking To Location" finished-at="2021-10-02T00:15:06 IST">
+        <test-method status="PASS" signature="fbpage3()[pri:3, instance:flightbooking1.MulticityFlight@3e57cd70]" name="fbpage3" duration-ms="5409" started-at="2021-10-03T15:30:38 IST" description="Checking To Location 1" finished-at="2021-10-03T15:30:43 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fbpage3 -->
-        <test-method status="PASS" signature="fbpage4()[pri:4, instance:flightbooking1.fb1@3e57cd70]" name="fbpage4" duration-ms="1168" started-at="2021-10-02T00:15:06 IST" description="Checking Departing Date" finished-at="2021-10-02T00:15:08 IST">
+        <test-method status="PASS" signature="fbpage4()[pri:4, instance:flightbooking1.MulticityFlight@3e57cd70]" name="fbpage4" duration-ms="1159" started-at="2021-10-03T15:30:43 IST" description="Checking Departing Date 1" finished-at="2021-10-03T15:30:44 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fbpage4 -->
-        <test-method status="PASS" signature="fbpage5()[pri:5, instance:flightbooking1.fb1@3e57cd70]" name="fbpage5" duration-ms="10772" started-at="2021-10-02T00:15:08 IST" description="Checking Return date" finished-at="2021-10-02T00:15:18 IST">
+        <test-method status="PASS" signature="fbpage5()[pri:5, instance:flightbooking1.MulticityFlight@3e57cd70]" name="fbpage5" duration-ms="5497" started-at="2021-10-03T15:30:44 IST" description="Checking To Location 2" finished-at="2021-10-03T15:30:50 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fbpage5 -->
-        <test-method status="PASS" signature="fbpage6()[pri:6, instance:flightbooking1.fb1@3e57cd70]" name="fbpage6" duration-ms="16523" started-at="2021-10-02T00:15:18 IST" description="Selecting Flight" finished-at="2021-10-02T00:15:35 IST">
+        <test-method status="PASS" signature="fbpage6()[pri:6, instance:flightbooking1.MulticityFlight@3e57cd70]" name="fbpage6" duration-ms="9066" started-at="2021-10-03T15:30:50 IST" description="Checking Departing 2 Date" finished-at="2021-10-03T15:30:59 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fbpage6 -->
-        <test-method status="PASS" signature="fbpage7()[pri:7, instance:flightbooking1.fb1@3e57cd70]" name="fbpage7" duration-ms="2042" started-at="2021-10-02T00:15:35 IST" description="Switching to new window" finished-at="2021-10-02T00:15:37 IST">
+        <test-method status="PASS" signature="fbpage7()[pri:7, instance:flightbooking1.MulticityFlight@3e57cd70]" name="fbpage7" duration-ms="6357" started-at="2021-10-03T15:30:59 IST" description="Selecting Flight" finished-at="2021-10-03T15:31:05 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fbpage7 -->
-        <test-method status="FAIL" signature="fbpage8()[pri:8, instance:flightbooking1.fb1@3e57cd70]" name="fbpage8" duration-ms="15783" started-at="2021-10-02T00:15:37 IST" description="giving credentials and clicking continue" finished-at="2021-10-02T00:15:53 IST">
+        <test-method status="PASS" signature="fbpage8()[pri:8, instance:flightbooking1.MulticityFlight@3e57cd70]" name="fbpage8" duration-ms="2045" started-at="2021-10-03T15:31:05 IST" description="Switching to new window" finished-at="2021-10-03T15:31:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fbpage8 -->
+        <test-method status="FAIL" signature="fbpage9()[pri:9, instance:flightbooking1.MulticityFlight@3e57cd70]" name="fbpage9" duration-ms="15738" started-at="2021-10-03T15:31:07 IST" description="giving credentials and clicking continue" finished-at="2021-10-03T15:31:23 IST">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[@data-ischecked='true']//span[@class='inner']"}
@@ -48,8 +52,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-MHPMHPJB', ip: '192.168.1.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.41 (333e85df3c9b6..., userDataDir: C:\Users\asadt\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52476}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 57769713ac2148c0c685cc7d0debc9be
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.41 (333e85df3c9b6..., userDataDir: C:\Users\asadt\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50551}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 71d2187f397394e87c9446e7b4d9d4a0
 *** Element info: {Using=xpath, value=//span[@data-ischecked='true']//span[@class='inner']}]]>
             </message>
             <full-stacktrace>
@@ -59,8 +63,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-MHPMHPJB', ip: '192.168.1.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.41 (333e85df3c9b6..., userDataDir: C:\Users\asadt\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52476}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 57769713ac2148c0c685cc7d0debc9be
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.41 (333e85df3c9b6..., userDataDir: C:\Users\asadt\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50551}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 71d2187f397394e87c9446e7b4d9d4a0
 *** Element info: {Using=xpath, value=//span[@data-ischecked='true']//span[@class='inner']}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -76,7 +80,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at flightbooking1.fb1.fbpage8(fb1.java:183)
+at flightbooking1.MulticityFlight.fbpage9(MulticityFlight.java:206)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -110,12 +114,12 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fbpage8 -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:flightbooking1.fb1@3e57cd70]" name="afterTest" is-config="true" duration-ms="2008" started-at="2021-10-02T00:15:53 IST" finished-at="2021-10-02T00:15:55 IST">
+        </test-method> <!-- fbpage9 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:flightbooking1.MulticityFlight@3e57cd70]" name="afterTest" is-config="true" duration-ms="2015" started-at="2021-10-03T15:31:23 IST" finished-at="2021-10-03T15:31:25 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- flightbooking1.fb1 -->
+      </class> <!-- flightbooking1.MulticityFlight -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
